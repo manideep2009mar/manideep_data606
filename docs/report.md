@@ -3,17 +3,17 @@
 - *Author:* Manideep Akam
 - *Term:* Summer 2023
 - *PPT:* (https://github.com/manideep2009mar/manideep_data606/blob/main/docs/capstone.pptx)
-- *Youtube:* (link)
+- *Youtube:* (https://youtu.be/nmoZfgHw7lI)
 - *GitHub:* (https://github.com/manideep2009mar/manideep_data606.git)
 
 ## Background
 
-Infants cannot communicate verbally until certain age. They express their distress through cry and experts such as Babysitters, nannies and childcare providers can easily understand the signal start acting accordingly which is not so easy for new parents. Babysitters, nannies, childcare providers can understand the pattern, developing a Machine learning models that can identify the reason for cry could help new parents and care givers in enhancing infant wellness. This model can be part of baby monitors.
+Infants are unable to communicate verbally until a certain stage of development. Instead, they convey their discomfort through crying, a form of expression that caregivers like babysitters, nannies, and childcare providers become adept at interpreting, unlike new parents who might find it more challenging. These experienced caregivers recognize patterns and can respond appropriately—an ability that could be challenging for parents new to the experience. Developing machine learning models to analyze crying patterns and determine the underlying reasons could greatly benefit both new parents and caregivers in promoting infant well-being. Such a model could even be integrated into baby monitors.
 
-Accurately identifying and interpreting the different types of infant cries poses a significant challenge, hindering timely and appropriate responses to infant distress. The lack of comprehensive understanding and systematic analysis of cry patterns, coupled with the influence of contextual factors like age and health status, restricts our ability to effectively address infant needs. There is a need for robust methodologies and insights to classify cries and uncover correlations with contextual factors, enabling improved recognition and response to infant distress.
+However, accurately deciphering the various types of infant cries presents a notable difficulty, impeding timely and suitable responses to their distress. Our limited grasp of cry patterns and the absence of systematic analysis, along with the impact of factors like age and health status, constrain our capacity to effectively address infant needs. Therefore, it is crucial to establish robust methodologies and insights for categorizing cries and identifying connections with contextual elements. This would enable an enhanced ability to recognize and respond to infant distress more effectively.
 
 ## Data sources 
-DonateaCry Corpus, a valuable resource consisting of audio recordings of infant cries collected from infants with diverse health conditions. The dataset offers a rich and comprehensive collection of cry sounds, encompassing different types of distress, such as hunger cries, pain cries, and discomfort cries. It serves as an invaluable tool for investigating the characteristics, patterns, and potential indicators of infant distress.
+The DonateaCry Corpus is a valuable asset containing audio recordings of infant cries. These cries were gathered from a variety of infants with varying health conditions. This dataset provides an extensive and thorough assortment of cry sounds, covering a range of distress types including cries due to hunger, pain, and discomfort. This collection proves to be an extremely useful resource for studying the attributes, trends, and potential cues linked to infant distress. <br>
 Link: (https://github.com/gveres/donateacry-corpus/)
 
 ## Data elements
@@ -35,12 +35,13 @@ Dataset has just audio files and their metadata incorported in their filenames. 
 - Duration around 7 seconds 
 - No null values
 - No discrepencies found on gender, age, label columns
-- ![Alt text](image.png) 
-- ![Alt text](image-1.png)
-- ![Alt text](image-2.png)
-- ![Alt text](image-3.png)
-- ![Alt text](image-4.png)
-- 2D image representation of a baby cry ![2D image representation of a baby cry](image-5.png)
+- <br>![Alt text](image.png) 
+- <br>![Alt text](image-1.png)
+- <br>![Alt text](image-2.png)
+- <br>![Alt text](image-3.png)
+- <br>![Alt text](image-4.png)
+- 2D image representation of a baby cry <br>
+   ![2D image representation of a baby cry](image-5.png)
 
 ## Results of ML (training, evaluation, deployment, etc.), 
 
@@ -53,7 +54,7 @@ Dataset has just audio files and their metadata incorported in their filenames. 
 | CNN with class_weight | 94.79 | 72.82 |
 | One vs Remaining | 96.71 | 77.17 |
 
-CNN model with Dropout Regularization has less evaluation than other models. It is deployed locally on streamlit and tested successfully.
+CNN model with Dropout Regularization has less evaluation loss than other models. It is deployed locally on streamlit and tested successfully.
 
 ## Conclusion 
 
